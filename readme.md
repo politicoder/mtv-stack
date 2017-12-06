@@ -19,3 +19,6 @@ Then, run one of the following to get started:
 
 
 This package is minimal and **does *not* include Bootstrap, SASS, jQuery**, or other common tools you may be more comfortable with. Mix makes it easy to add these back in if you need to, but after getting acquainted with Tailwind and Vue you may not miss them as much as you think.
+
+### Where are the colors?
+As of Tailwind 0.3.0, each color in the config file adds an extra 1kb of minified CSS. Since a majority of my projects have their designs locked before going into development, I removed most of the default Tailwind colors to keep file size down.
