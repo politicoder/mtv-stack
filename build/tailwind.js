@@ -47,46 +47,26 @@ var colors = {
   'transparent': 'transparent',
 
   'black': '#222b2f',
-  'gray-darkest': '#364349',
-  'gray-darker': '#596a73',
   'gray-dark': '#70818a',
   'gray': '#9babb4',
   'gray-light': '#dae4e9',
-  'gray-lighter': '#f3f7f9',
-  'gray-lightest': '#fafcfc',
   'white': '#ffffff',
 
-  'red-darkest': '#420806',
-  'red-darker': '#6a1b19',
   'red-dark': '#cc1f1a',
   'red': '#e3342f',
   'red-light': '#ef5753',
-  'red-lighter': '#f9acaa',
-  'red-lightest': '#fcebea',
 
-  'yellow-darkest': '#453411',
-  'yellow-darker': '#684f1d',
   'yellow-dark': '#f2d024',
   'yellow': '#ffed4a',
   'yellow-light': '#fff382',
-  'yellow-lighter': '#fff9c2',
-  'yellow-lightest': '#fcfbeb',
 
-  'green-darkest': '#032d19',
-  'green-darker': '#0b4228',
   'green-dark': '#1f9d55',
   'green': '#38c172',
   'green-light': '#51d88a',
-  'green-lighter': '#a2f5bf',
-  'green-lightest': '#e3fcec',
 
-  'blue-darkest': '#05233b',
-  'blue-darker': '#103d60',
   'blue-dark': '#2779bd',
   'blue': '#3490dc',
   'blue-light': '#6cb2eb',
-  'blue-lighter': '#bcdefa',
-  'blue-lightest': '#eff8ff',
 
 }
 
@@ -338,7 +318,7 @@ module.exports = {
   |
   */
 
-  borderColors: Object.assign({ default: colors['grey-light'] }, colors),
+  borderColors: Object.assign({ default: colors['gray-light'] }, colors),
 
 
   /*
