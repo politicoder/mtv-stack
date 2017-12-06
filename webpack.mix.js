@@ -1,8 +1,8 @@
 const { mix } = require('laravel-mix');
 
 const config = {
-    themeName: 'engage',
-    domain: 'engage.dev'
+    themeName: 'my-project',
+    domain: 'my-project.dev'
 };
 
 const tailwindcss = require('tailwindcss');
