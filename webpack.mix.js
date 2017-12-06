@@ -22,7 +22,8 @@ mix.setPublicPath('public');
 
 mix.browserSync({
     proxy: config.domain,
-    files: ["public/**/*.css", "public/**/*.php", "public/**/*.twig"]
+    files: ["public/**/*.css", "public/**/*.php", "public/**/*.twig"],
+    open: false
 });
 
 mix.js('./build/scripts/scripts.js', 'public/wp-content/themes/'+config.themeName+'/assets/js/scripts.js')
